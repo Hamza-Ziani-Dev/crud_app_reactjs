@@ -1,0 +1,102 @@
+/* styles.css */
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .post {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .post h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    margin-bottom: 20px;
+  }
+  
+  .updateButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .updateButton:hover {
+    background-color: #0056b3;
+  }
+  .deleteButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #019215;
+    color: #fff;
+    cursor: pointer;
+  }
+  .SaveButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eb12c6;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #21f841;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .updateButton {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0239de;
+    color: #fff;
+    cursor: pointer;
+  }
+  .deleteButton {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #de022e;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .updateButton:hover {
+    background-color: #218838;
+  }
+  
+  .form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  
